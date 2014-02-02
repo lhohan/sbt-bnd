@@ -17,18 +17,6 @@ object BndPlugin extends Plugin
 
 	object BndKeys {
 
-    val sayHello: TaskKey[Unit] =
-      TaskKey[Unit](
-        prefixed("SayHello"),
-        "Test task - prints text to console"
-      )
-
-    val helloText: SettingKey[String] =
-      SettingKey[String](
-        prefixed("HelloText"),
-        "Test key - set the the hello text used in sayHello task"
-      )
-
     val bndSrcOutput: SettingKey[String] =
       SettingKey[String](
         prefixed("SrcOutput"),
