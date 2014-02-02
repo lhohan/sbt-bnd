@@ -48,10 +48,6 @@ object BndPlugin extends Plugin
   import BndKeys._
 
   def defaultBndSettings = Seq(
-    helloText := "bnd!",
-    sayHello := {
-        println("hello " + helloText.value)
-      },
     bndProject := Bnd.bndProject(thisProject.value, streams.value.log),
     bndBuild := Bnd.bndBuild(thisProject.value, streams.value.log, bndSrcOutput.value, scalaBinaryVersion.value),   
     bndDependencies := Bnd.bndDependencies(thisProject.value, streams.value.log),
