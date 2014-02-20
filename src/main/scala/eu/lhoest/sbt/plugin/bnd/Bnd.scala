@@ -13,7 +13,6 @@ import org.joda.time._
 object Bnd {
 
   def bndProject(sbtProject: ResolvedProject, logger: Logger) = {
-    val projId = sbtProject.id
     logi(logger, s"executing bndProject for '${sbtProject.id}'")
     Workspace.getProject(sbtProject.base)
   }
