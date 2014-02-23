@@ -1,1 +1,1 @@
-publishTo := Some(Resolver.file("file",  new File( "/e/repo" )) )
+publishTo := Some(Resolver.file("file",  new File( "/repo" )) )
