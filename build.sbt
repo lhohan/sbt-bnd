@@ -2,7 +2,7 @@ organization := "eu.lhoest"
 
 name := "sbt-bnd"
 
-version := "0.2-SNAPSHOT"
+version := "0.2.1-SNAPSHOT"
 
 sbtPlugin := true
 
