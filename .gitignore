@@ -1,1 +1,6 @@
 /cacerts
+.idea
+publish.sbt
+*.iml
+target
+project
