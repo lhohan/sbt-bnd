@@ -2,7 +2,7 @@ organization := "eu.lhoest"
 
 name := "sbt-bnd"
 
-version := "0.2-SNAPSHOT"
+//version := "0.2.1-SNAPSHOT"
 
 sbtPlugin := true
 
@@ -11,3 +11,5 @@ libraryDependencies ++= Seq(
   "joda-time" % "joda-time" % "2.1",
   "org.joda" % "joda-convert" % "1.2"
 )
+
+releaseSettings
